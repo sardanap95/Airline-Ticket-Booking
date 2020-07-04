@@ -1,0 +1,98 @@
+body,html{
+    height:100%;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: image size 100%;
+    height: 100%;
+}
+
+
+
+
+body{
+    color: #fff;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+h1, h5 {
+    font-weight: bold;
+    z-index: 1;
+}
+
+input::placeholder {
+    color: black;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.modal {
+    max-width: 750px;
+}
+
+.page-footer {
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.ftext {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.eventHeading {
+    font-weight: bold;
+}
+
+#heading{
+    position: relative;
+}
+
+#heading h1, #heading h5{
+    position: relative;
+}
+
+
+
+.modalConentSecondLine {
+    margin-top: 20px;
+}
+
+.row-footer {
+    margin-bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }

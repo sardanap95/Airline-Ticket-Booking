@@ -1,0 +1,59 @@
+body,html{
+    height:100%;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: image size 100%;
+    height: 100%;
+    
+}
+.Welcome {
+    color: #fff;
+    position:fixed;
+    top:340px;
+    line-height: 5px;
+
+}
+
+.Begin {
+    font-size: 60px;
+   
+}
+
+.Explore,.Experience{
+    font-size:40px;
+}
+
+
+.Begin,.Explore,.Experience{
+    transition:0.6s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
